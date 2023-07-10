@@ -1,0 +1,158 @@
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  h2,
+  h3 {
+    margin: 0;
+  }
+  
+  /* Personal Info section */
+  
+  .personal-info ul li strong {
+    width: 100px;
+    display: inline-block;
+  }
+  
+  /* Content layout */
+  
+  .content {
+    display: flex;
+  }
+  
+  .left-column,
+  .right-column {
+    flex: 1;
+    position: relative;
+  }
+  
+  .right-column {
+    margin-left: 20px;
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+  }
+  
+  /* Experience section */
+  
+  .experience li h3 {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .experience ul {
+    padding-left: 20px;
+  }
+  
+  .experience ul.bullet-points {
+    list-style-type: disc;
+  }
+  
+  .experience ul.bullet-points li {
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  /* Projects section */
+  
+  /* Projects section */
+
+.projects li h3 {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .projects p {
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .projects ul.bullet-points {
+    padding-left: 20px;
+  }
+  
+  .projects ul.bullet-points li {
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  .projects ul.bullet-points li:before {
+    content: "•";
+    display: inline-block;
+    width: 10px;
+    margin-right: 5px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  
+  /* Education section */
+  
+  .education li h3 {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Skills section */
+  
+  .skills ul {
+    padding-left: 20px;
+  }
+  
+  .skills li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: #333;
+  }
+  
+  /* Courses section */
+  
+  .courses ul {
+    padding-left: 20px;
+  }
+  
+  .courses li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: #333;
+  }
+  
